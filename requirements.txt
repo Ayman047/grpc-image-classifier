@@ -1,0 +1,6 @@
+grpcio==1.75.1
+grpcio-tools==1.75.1
+tensorflow==2.13.0
+numpy==1.25.0
+pillow==10.1.0
+protobuf==4.25.3
