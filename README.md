@@ -56,4 +56,16 @@ python -m server.server
 python -m client.client
 ```
 
+# Testing with Images
 
+1. Place your images in a folder, e.g., test_images/ (optional).
+2. Supported formats: JPG, PNG.
+3. When running the client, provide the full path to any image you want to classify.
+4. The server will handle the ML inference and return the prediction to the client.
+
+# Example
+``` bash
+Client input: dog.jpg
+Prediction: golden_retriever
+Confidence: 0.89
+```
