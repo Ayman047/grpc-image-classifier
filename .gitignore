@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# TensorFlow / model weights
+*.h5
+temp.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.env
+
+# IDE files (VS Code)
+.vscode/
+
+# Logs
+*.log

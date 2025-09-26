@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package classifier;
+
+// Service definition
+service ImageClassifier {
+    // Unary RPC: send one image, get one prediction
+    rpc ClassifyImage (ImageRequest) returns (ImageReply);
+}
+
+// Request message
+message ImageRequest {
+    bytes image_data = 1;   // raw image bytes
+}
+
+// Response message
+message ImageReply {
+    string label = 1;       // predicted class, e.g., "Cat"
+    float confidence = 2;   // confidence score
+}
