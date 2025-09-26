@@ -36,5 +36,22 @@ grpc-image-classifier/
 1. Clone the repo:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Ayman047/grpc-image-classifier.git
 cd grpc-image-classifier
+```
+
+2. Install Independencies
+
+   pip install -r requirements.txt
+
+# Running Server
+
+python -m server.server
+
+
+# Running the Client
+
+python -m client.client
+
+
+
