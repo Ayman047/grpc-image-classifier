@@ -41,9 +41,9 @@ cd grpc-image-classifier
 ```
 
 2. Install Independencies
-
+```bash
    pip install -r requirements.txt
-
+```
 # Running Server
 
 ```bash
