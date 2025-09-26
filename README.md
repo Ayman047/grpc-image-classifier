@@ -46,12 +46,14 @@ cd grpc-image-classifier
 
 # Running Server
 
+```bash
 python -m server.server
-
+```
 
 # Running the Client
 
+```bash
 python -m client.client
-
+```
 
 
